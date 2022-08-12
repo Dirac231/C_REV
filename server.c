@@ -17,7 +17,7 @@ int main(int argc, char** argv){
 	struct sockaddr_in srv_adr, cl_adr;
 
 	int opv = 1;
-    int i = 0;
+    	int i = 0;
 	
 	//socket initialization
 	socklen_t cl_len;
