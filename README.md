@@ -1,5 +1,5 @@
 ### What is this?
-A rudimentary reverse shell client/server project in C. \
+A rudimentary reverse shell client/server project in C, mainly created while learning about sockets and network interfacing. \
  \
 Could be useful if you want to train various obfuscation and evasion techniques or add complex functionalities to the project.
 
