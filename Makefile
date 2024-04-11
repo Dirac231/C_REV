@@ -11,12 +11,12 @@ SRC_DIRS := ./src
 INCLUDE_FLAGS := -I ./include
 
 # External Libraries (Optional + GTK)
-#LD_FLAGS := -L ./lib -l[lib_name] -fopenmp
+LD_FLAGS := -L ./lib -pg #-l[lib_name] -fopenmp
 #GTK_LIBS := `pkg-config --libg gtk4`
 
 # GCC compilation flags (Optimizations / Security / GTK)
 CC= gcc
-STDFLAGS := -Og -Wall -Wextra -Wpedantic -Wformat -Wformat-security -Werror
+STDFLAGS := -pg -Og -Wall -Wextra -Wpedantic -Wformat -Wformat-security -Werror
 #OPTFLAGS := -O3 -fno-math-errno -fno-trapping-math -flto -mtune=native -fopenmp
 #SECFLAGS := -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -Wl,-z,separate-code -fPIE -pie -fstack-protector-strong
 #GTKFLAGS := `pkg-config --cflags gtk4`
