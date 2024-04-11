@@ -16,7 +16,7 @@ INCLUDE_FLAGS := -I ./include
 
 # GCC compilation flags (Optimizations / Security / GTK)
 CC= gcc
-STDFLAGS := -Og -ggdb3 -Wall -Wextra -Wpedantic -Wformat -Wformat-security -Werror
+STDFLAGS := -Og -Wall -Wextra -Wpedantic -Wformat -Wformat-security -Werror
 #OPTFLAGS := -O3 -fno-math-errno -fno-trapping-math -flto -mtune=native -fopenmp
 #SECFLAGS := -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -Wl,-z,separate-code -fPIE -pie -fstack-protector-strong
 #GTKFLAGS := `pkg-config --cflags gtk4`
